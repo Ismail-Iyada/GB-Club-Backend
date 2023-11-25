@@ -1,0 +1,22 @@
+{
+  "name": "grand-blue_club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon GB_api/index.js",
+    "start": "node GB_api/index.js",
+    "build": "npm install && npm install --prefix Grand-Blue_Club && npm run build --prefix Grand-Blue_Club"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
