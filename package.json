@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon GB_api/index.js",
     "start": "node GB_api/index.js",
-    "build": "npm install && npm install --prefix Grand-Blue_Club && npm run build --prefix Grand-Blue_Club"
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
